@@ -206,20 +206,6 @@ autoplot(subset(myts, end = 530))+ autolayer(fc, PI=FALSE)+ggtitle("ARIMA 1,1,1 
 # now check= accuracy(fc,myts.test)
 accuracy(fit_arima)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ###############################
 #tsCV
 ###############################
